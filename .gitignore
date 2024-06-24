@@ -2,14 +2,26 @@ checkpoints/
 dataset_csvs/
 assets/data/tcga_luadlusc/
 assets/data/CRC100K/
+model/
+notes/
+
 
 tests/data/
 *.pt
 *.pth
 *.bin
+*.png
+*.jpg
+*.gif
+*.pkl
+# *.ipynb
+# *.py
+*.html
 .DS_Store
 *mgb*
 DEBUG*
+
+.github
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -152,3 +164,4 @@ src/misc
 .vscode
 src/debug
 core.*
+notebooks/model_structure
